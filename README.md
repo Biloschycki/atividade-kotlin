@@ -57,5 +57,6 @@ app/
 ```
 
 ## 📱Imagens da Aplicação
+![image alt](https://github.com/Biloschycki/atividade-kotlin/blob/main/Captura%20de%20tela%202026-03-17%20203330.png)
 ```
 
