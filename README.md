@@ -1,5 +1,4 @@
-﻿# TrabalhoPedidos
- > **Atenção:** Este projeto é um exemplo didático, criado para fins de estudo e demonstração. Não é recomendado para uso em produção sem as devidas adaptações e revisões de segurança, arquitetura e boas práticas.
+﻿# Atividade-kotlin
 
 Este projeto demonstra como implementar a navegação entre múltiplas telas em um aplicativo Android utilizando **Jetpack Compose** e **Navigation Compose**.
 
@@ -22,13 +21,12 @@ Este projeto demonstra como implementar a navegação entre múltiplas telas em 
 - O **NavController** é criado na `MainActivity` e passado para cada tela.
 - As rotas são definidas no `NavHost`.
 - Cada tela pode navegar para outra usando o `navController.navigate()`.
-- Parâmetros podem ser passados via rota (ex: `perfil/{nome}/{idade}`) ou query string (ex: `pedidos?cliente=Pedido n° 1`).
 
 ## 🔄 Fluxo de Navegação entre Telas
 
 A navegação entre as telas do aplicativo segue o fluxo ilustrado abaixo:
 
-![Fluxo de navegação entre telas](docs/navigation-flow.png)
+![Fluxo de navegação entre telas]
 
 - **Login → Menu:** Ao clicar em "ENTRAR" na tela de Login, o usuário é direcionado para a tela de Menu.
 - **Menu → Perfil:** O botão "Perfil" leva o usuário para a tela de Perfil.
@@ -60,8 +58,4 @@ app/
 
 ## 📱Imagens da Aplicação
 ```
-(TrabalhoPedidos/imagensAppRodando/Screenshot_20260314_141434.png)
-(TrabalhoPedidos/imagensAppRodando/Screenshot_20260314_141620.png)
-(TrabalhoPedidos/imagensAppRodando/Screenshot_20260314_141704.png)
-(TrabalhoPedidos/imagensAppRodando/Screenshot_20260314_142040.png
-)
+
