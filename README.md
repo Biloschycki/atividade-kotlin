@@ -47,7 +47,7 @@ app/
  └── src/
       └── main/
            └── java/
-                └── biloschycki/com/TrabalhoPedidos/
+                └── com/github/biloschycki/atividade-kotlin/
                      ├── MainActivity.kt
                      └── screens/
                           ├── LoginScreen.kt
