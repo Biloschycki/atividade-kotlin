@@ -18,14 +18,14 @@ import androidx.compose.ui.Alignment
 
 
 @Composable
-fun PedidosScreen(modifier: Modifier = Modifier, navController: NavController) {
+fun PedidosScreen(modifier: Modifier = Modifier, navController: NavController, cliente: String?) {
     Box(modifier = modifier
         .fillMaxSize()
         .background(Color(0xFF673AB7))
         .padding(32.dp)
     ) {
         Text(
-            text = "PEDIDOS",
+            text = "PEDIDOS - $cliente",
             fontSize = 26.sp,
             fontWeight = FontWeight.Bold,
             color = Color.Black
